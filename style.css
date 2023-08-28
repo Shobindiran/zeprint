@@ -66,6 +66,7 @@ h4{
 h5{
     font-size: 20px;
     font-weight: 500;
+    color:var(--color_6);
 }
 
 h6{
@@ -79,8 +80,8 @@ p{
 }
 
 .mybtn{
-    display: flex;
-    gap:5px;
+    display:flex;
+    gap:10px;
     align-items: center;
     font-size: 16px;
     font-weight: 600;
@@ -97,6 +98,21 @@ p{
 .mybtn.solid:hover{
     background-color: #216f6e;
 }
+
+
+.section-heading{
+    text-align: center;
+}
+
+.section-heading>h2{
+    padding-block:10px;
+}
+
+.section-heading>p{
+    width: 55%;
+    margin:0px auto;
+}
+
 
 /* common stylings ends  */
 
@@ -138,16 +154,14 @@ header{
     display: block;
 }
 
-.header-wrapper ul>li>div>ul>li{
-    padding:5px 10px;
-    transition: background 0.5s;
-}
-
-.header-wrapper ul>li>div>ul>li:hover{
-    background-color: var(--color_3); 
+.header-wrapper ul>li>div>ul>li>a{
+    display: block;
+    padding:10px 20px;
+    transition: background 0.4s;
 }
 
 .header-wrapper ul>li>div>ul>li:hover>a{
+    background-color: var(--color_3);
     color: var(--color_1);
 }
 
@@ -166,16 +180,172 @@ header{
 
 /* banner starts */
 
+.banner{
+    background-color: var(--color_12);
+}
 
+.banner-wrapper{
+    padding-top:100px;
+}
+
+.banner-wrapper>div>div:first-child>div>h5{
+    display: inline-block;
+    padding:5px 10px;
+    border-radius:30px;
+    background-color: var(--color_10);
+}
+
+.banner-wrapper>div>div:first-child>div>h1{
+    margin-block:20px;
+    line-height: 70px;
+}
+
+.banner-wrapper>div>div:first-child>div>h1>span{
+    display: block;
+}
+
+.banner-wrapper>div>div:first-child>div>h1>span>span{
+    color: var(--color_3);
+}
+
+.banner-wrapper>div>div:first-child>div>p{
+    margin-bottom:40px;
+}
+.banner-wrapper>div>div:first-child>div>div{
+    margin-top:20px;
+}
+
+.banner-wrapper>div>div:first-child>div>div>img{
+    width:100px;
+}
+
+.banner-wrapper>div>div:last-child>div>img{
+    width: 100%;
+}
+
+/* common banner  */
+
+.common-banner-wrapper{
+    padding-block:100px;
+}
+
+.common-banner-wrapper>div h5>span{
+    color: var(--color_6) ;
+}
 
 /* banner ends */
+
+/* phrase starts */
+
+.phrase{
+    background-color: var(--color_3);
+}
+
+.phrase-wrapper{
+    padding-block:15px;
+}
+
+.phrase-wrapper h3{
+    text-align: center;
+    padding-right:30px;
+    color:var(--color_1);
+}
+/* phrase ends */
+
+
+/* company starts */
+
+.company-wrapper{
+    margin-block:100px;
+    background: url(./images/company-images/Beground.svg) no-repeat;
+}
+
+.company-wrapper>div>div:first-child img{
+    width: 100%;
+}
+
+.company-wrapper>div>div:last-child>div>h5{
+    padding-top:50px;
+}
+
+.company-wrapper>div>div:last-child>div>h2{
+    padding-block:20px;
+}
+
+.company-wrapper>div>div:last-child>div>p{
+    padding-bottom:15px;
+}
+
+/* company ends */
+
+/* favorite starts */
+
+.favorite-wrapper{
+    text-align: center;
+}
+
+.favorite-wrapper h5{
+    color: var(--color_2);
+}
+
+/* favorite ends */
 
 
 
 /* media query  starts*/
 
+@media only screen and (max-width: 1200px){
+    .section-heading>p{
+        width: 80%;
+    }
+
+    .banner-wrapper>div>div:last-child{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 992px) {
+
+    .section-heading>p{
+        width: 100%;
+    }
+
     .header-wrapper ul{
         display: none !important;
     }
 }
+
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size:60px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 576px){
+    h1{
+        font-size:40px;
+        line-height:50px !important;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    h1{
+        font-size:30px;
+        line-height:40px !important;
+    } 
+
+    /* phrase starts */
+
+    .phrase-wrapper h3{
+        font-size: 20px;
+        padding-block: 3px;
+    }
+
+    /* phrase ends */
+}    
