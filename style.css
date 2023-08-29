@@ -256,7 +256,7 @@ header{
 
 /* company starts */
 
-.company-wrapper{
+.company{
     margin-block:100px;
     background: url(./images/company-images/Beground.svg) no-repeat;
 }
