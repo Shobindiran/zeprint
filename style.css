@@ -227,6 +227,7 @@ header{
 
 .common-banner-wrapper{
     padding-block:100px;
+    margin-bottom:100px;
 }
 
 .common-banner-wrapper>div h5>span{
@@ -282,13 +283,99 @@ header{
 
 .favorite-wrapper{
     text-align: center;
+    /* padding-block:50px; */
 }
 
 .favorite-wrapper h5{
     color: var(--color_2);
 }
 
+.favorite-wrapper>div:first-child img{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.favorite-wrapper>div:first-child>div{
+    margin-bottom: 30px;
+}
+
+.favorite-wrapper>div:first-child{
+    padding-block:50px;
+}
+
+.favorite-wrapper>div:last-child{
+    text-align: start;
+}
+
+.favorite-wrapper>div:last-child img{
+    width:50px;
+}
+
+.favorite-wrapper>div:last-child>div{
+    margin-bottom: 10px;
+}
+
+.favorite-wrapper>div:last-child>div>div{
+    background-color: var(--color_7);
+    padding-block:25px;
+    border-radius:15px;
+}
+
+.favorite-wrapper>div:last-child>div:first-child>div{
+    background-color: var(--color_8);
+}
+
 /* favorite ends */
+
+
+/*why-us starts  */
+
+.why-us-wrapper{
+    margin-block:100px;
+}
+
+.why-us-wrapper h1{
+    text-align: center;
+    font-size:56px;
+    font-weight:700;
+    color: var(--color_1);
+    border-radius: 11px;
+    padding-block:5px;
+}
+
+.why-us-wrapper>div>div:first-child>div h2{
+    margin-block:20px 15px;
+}
+
+.why-us-wrapper>div>div:first-child>div p{
+    margin-bottom:15px;
+}
+
+.why-us-wrapper>div>div:last-child>div>div{
+    margin-bottom:20px;
+}
+
+.why-us-wrapper>div>div:last-child>div>div:first-child h1{
+    background-color: var(--color_3);
+}
+
+.why-us-wrapper>div>div:last-child>div>div:nth-child(2) h1{
+    background-color: var(--color_6);
+}
+
+.why-us-wrapper>div>div:last-child>div>div:nth-child(3) h1{
+    background-color: var(--color_5);
+}
+
+.why-us-wrapper>div>div:last-child>div>div:last-child h1{
+    background-color: var(--color_9);
+}
+
+.why-us-wrapper>div>div:last-child>div>div p{
+    background-color: var(--color_1);
+    padding:15px 15px;
+    border-radius: 11px;
+}
 
 
 
@@ -299,9 +386,18 @@ header{
         width: 80%;
     }
 
+    /* banner starts */
     .banner-wrapper>div>div:last-child{
         display: none;
     }
+    /* banner ends */
+
+    /* favorite starts */
+    .favorite-wrapper>div:first-child img{
+        width:55%;
+    }
+    /* favorite ends */
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -310,9 +406,11 @@ header{
         width: 100%;
     }
 
+    /* header  starts */
     .header-wrapper ul{
         display: none !important;
     }
+    /* header  ends */
 }
 
 
@@ -323,7 +421,7 @@ header{
 
     h2{
         font-size: 32px;
-    }
+    }   
 
 }
 
