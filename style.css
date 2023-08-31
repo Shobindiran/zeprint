@@ -82,6 +82,7 @@ p{
 .mybtn{
     display:flex;
     gap:10px;
+    justify-content: center;
     align-items: center;
     font-size: 16px;
     font-weight: 600;
@@ -93,10 +94,16 @@ p{
     color:var(--color_1);
     background-color: var(--color_5);
     transition: background 0.3s;
+    border:none;
 }
 
 .mybtn.solid:hover{
     background-color: #216f6e;
+}
+
+.mybtn.outline{
+    border:var(--color_5) 3px solid;
+    color: var(--color_5);
 }
 
 
@@ -606,6 +613,178 @@ header{
 /* trust ends */
 
 
+/* discover starts */
+
+.discover-wrapper>div>div:first-child>div>div>div img{
+    margin-block:30px;
+    width:100%;
+}
+
+.discover-wrapper>div>div:first-child>div>div>div p{
+    margin-block:15px;
+}
+
+.discover-wrapper>div>div:first-child>div>div>div a{
+    color: var(--color_5);
+    font-weight: 600;
+}
+
+.discover-wrapper>div>div:last-child>div>div>div>h5{
+    margin-block:20px;
+}
+
+.discover-wrapper>div>div:last-child>div>div>div{
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.discover-wrapper>div>div:last-child>div>div:first-child>div{
+    background-color: var(--color_8);
+    height:100%;
+}
+
+.discover-wrapper>div>div:last-child>div>div:first-child>div p{
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.discover-wrapper>div>div:last-child>div>div:nth-child(2)>div{
+    background-color: var(--color_12);
+    height:100%;
+}
+
+.discover-wrapper>div>div:last-child>div>div:nth-child(2)>div p{
+    margin-bottom: 10px;
+}
+
+.discover-wrapper>div>div:last-child>div>div:nth-child(2)>div div{
+    margin-bottom: 10px;
+}
+
+.discover-wrapper>div>div:last-child>div>div:last-child>div{
+    background-color: var(--color_7);
+}
+
+.discover-wrapper>div>div:last-child>div>div:last-child>div>p{
+    margin-block:20px 15px;
+}
+
+.discover-wrapper>div>div:last-child>div>div:last-child>div>div input{
+    width: 100%;
+}
+
+
+/* discover ends */
+
+/* explore starts */
+
+.explore{
+    padding-block:100px;
+    margin-top:100px;
+    background-color: var(--color_12);
+}
+
+/* explore ends */
+
+/* touch starts */
+
+.touch{
+    margin-top: 100px;
+}
+
+.touch-wrapper>div>div:first-child>div{
+    background-color:var(--color_7);
+    padding:40px;
+    border-radius:10px;
+    height:100%;
+}
+
+.touch-wrapper form>input{
+    display: block;
+    width: 100%;
+    margin-block: 25px;
+    height:40px;
+}
+
+.touch-wrapper ::placeholder{
+    padding-left:5px;
+}
+
+textarea{
+    resize: none;
+    display: block;
+    width:100%;
+    border-radius:5px;
+    margin-block: 25px;
+}
+
+.touch-wrapper>div>div:last-child>div>h5{
+    margin-bottom:20px;
+}
+
+.touch-wrapper>div>div:last-child>div>p{
+    margin-block:10px 50px;
+}
+
+.touch-wrapper>div>div:last-child>div>div>p{
+    margin-block:5px 20px;
+}
+
+.touch-wrapper>div>div:last-child>div>div>div>div{
+    margin-bottom:10px;
+}
+
+
+/* touch ends */
+
+/* footer starts */
+
+footer{
+    margin-top:150px;
+    background-color: var(--color_3);
+    color: var(--color_1);
+}
+
+
+/* footer ends */
+
+
+/* catalogue starts */
+
+.catalogue{
+    margin-block:100px;
+}
+
+.catalogue-wrapper{
+    padding-top: 50px;
+    border-top:var(--Color_4) dotted 1px;
+}
+
+/* catalogue ends */
+
+
+/* create starts */
+
+.create-wrapper>div>div{
+    padding: 0px;
+}
+
+.create-wrapper>div>div:first-child>div{
+    background-color: var(--color_12);
+    height: 70%;
+}
+
+.create-wrapper h2{
+    margin-block:80px 20px;
+}
+
+.create-wrapper p{
+    margin-bottom:20px;
+}
+
+/* create ends */
+
 /* media query  starts*/
 
 @media only screen and (max-width: 1200px){
@@ -663,17 +842,24 @@ header{
     }   
 
     /* special starts */
-
     .right-choice-wrapper>div>div:last-child>div>div>div{
         border-radius:0px;
     }
-
     /* special ends */
 
+    /* trust starts */
     .trust-wrapper>div:first-child p{
         width: 100%;
     }
+    /* trust ends */
 
+    /* discover starts */
+
+    .discover-wrapper>div>div:last-child>div>div:last-child>div>div input{
+        margin-bottom:20px;
+    }
+
+    /* discover ends */
 }
 
 @media only screen and (max-width: 576px){
@@ -681,6 +867,13 @@ header{
         font-size:40px;
         line-height:50px !important;
     }
+
+
+    /* touch starts */
+    .touch-wrapper>div>div:first-child>div{
+        padding:10px;
+    }
+    /* touch ends */
 }
 
 @media only screen and (max-width: 400px){
@@ -703,23 +896,23 @@ header{
     .special-wrapper>div:last-child>div>div>div>img{
         width:100%;
     }
-
     /* special ends */
 
     /* work starts */
-
     .work-wrapper img{
         width:90%;
     }
-
     /* work ends */
 
     /* question starts */
-
     .question-wrapper>div>div:last-child img{
         width: 100%;
     }
-
     /* question ends */
     
+    /* catalogue starts */
+    .catalogue img{
+        width:100%;
+    }
+    /* catalogue ends */
 }    
