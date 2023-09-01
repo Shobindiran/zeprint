@@ -766,6 +766,10 @@ footer{
 
 /* create starts */
 
+.create-wrapper>div>div:last-child img{
+    width:100%;
+}
+
 .create-wrapper>div>div{
     padding: 0px;
 }
@@ -785,9 +789,86 @@ footer{
 
 /* create ends */
 
+/* intro starts */
+
+.intro-wrapper>div>div:first-child>div>h2{
+    margin-top: 30px;
+}
+
+.intro-wrapper>div>div:first-child>div>p{
+    margin-top: 15px;
+}
+
+.intro-wrapper>div>div:first-child>div>span{
+    margin-top: 40px;
+}
+
+.intro-wrapper>div>div:last-child>div>div:first-child{
+    background-color: var(--color_1);
+    padding: 30px;
+    border-radius:8px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.intro-wrapper>div>div:last-child>div>div:first-child>h4{
+    color: var(--Color_4);
+}
+
+.intro-wrapper>div>div:last-child>div>div:first-child>img{
+    position:absolute;
+    top:0;
+    left: 0;
+    transform: translatey(-50%);
+}
+
+.intro-wrapper>div>div:last-child>div>div:last-child>img{
+    margin-bottom: 20px;
+}
+
+/* intro ends */
+
+
+/* vision starts */
+
+.vision-wrapper>div:first-child>div>div{
+    padding: 30px;
+    border-radius:10px;
+}
+
+.vision-wrapper>div:first-child>div>div h4{
+    margin-block:15px 20px;
+}
+
+.vision-wrapper>div:first-child>div:first-child>div{
+    background-color:var(--color_8);
+}
+
+.vision-wrapper>div:first-child>div:nth-child(2)>div{
+    background-color:var(--color_10);
+}
+
+.vision-wrapper>div:first-child>div:last-child>div{
+    background-color:var(--color_12);
+}
+
+.vision-wrapper>div:last-child{
+    margin-top:50px;
+}
+
+.vision-wrapper>div:last-child h1{
+    font-weight: 700;
+}
+
+.vision-wrapper>div:last-child>div:first-child h1{
+    color: var(--color_3);
+}
+
+/* vision ends */
+
 /* media query  starts*/
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1199.5px){
     .section-heading>p{
         width: 80%;
     }
@@ -809,6 +890,18 @@ footer{
         width: 60%;
     }
     /* trust ends */
+
+    /* create starts */
+
+    .create-wrapper>div>div:last-child img{
+        display: none;
+    }
+
+    .create-wrapper>div>div:first-child>div{
+        height: 100%;
+    }
+
+    /* create ends */
 
 }
 
@@ -915,4 +1008,10 @@ footer{
         width:100%;
     }
     /* catalogue ends */
+
+    /* intro starts */
+    .intro-wrapper>div>div:last-child>div>div:first-child>h4{
+        font-size:17px;
+    }
+    /* intro ends */
 }    
