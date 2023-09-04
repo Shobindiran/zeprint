@@ -77,6 +77,7 @@ h6{
 p{
     font-size: 16px;
     font-weight: 400;
+    color:var(--Color_4);
 }
 
 .mybtn{
@@ -866,6 +867,263 @@ footer{
 
 /* vision ends */
 
+
+/* bocca starts */
+.bocca{
+    margin-bottom: 100px;
+}
+
+.bocca-wrapper .mybtn{
+    padding:0px 10px 0px 0px;
+}
+
+.bocca-wrapper span>a>img{
+    background-color: var(--color_12);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bocca-wrapper>div>div:first-child img{
+    width: 100%;
+}
+
+.bocca-wrapper>div>div:first-child>div>div:last-child img{
+    background-color: var(--color_7);
+    padding: 40px;
+    border-radius:10px;
+}
+
+.bocca-wrapper>div>div:last-child>div>h2{
+    margin-block:20px;
+}
+
+.bocca-wrapper>div>div:last-child>div>p{
+    margin-bottom:20px;
+}
+
+.bocca-wrapper>div>div:last-child>div>div:nth-of-type(2)>div>h6{
+    width:130px;
+    margin-bottom:7px;
+}
+
+.bocca-wrapper>div>div:last-child>div>div:last-of-type{
+    margin-top: 30px;
+}
+
+/* bocca ends */
+
+
+/* description stars */
+
+.description{
+    margin-bottom: 100px;
+}
+
+.description-wrapper>div>div:first-child>div>h6{
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.description-wrapper>div>div:first-child>div p{
+    margin-block:10px;
+    color: var(--Color_4);
+}
+
+.description-wrapper>div>div:last-child>div>div{
+    margin-bottom: 15px;
+}
+
+.description-wrapper>div>div:last-child>div>div>span{
+    color: var(--color_3);
+    font-weight: 600;
+}
+
+.description-wrapper>div>div:last-child>div>ul li{
+    margin-top: 15px;
+}
+
+.description-wrapper>div>div:last-child>div>ul span{
+    font-weight: 600;
+}
+
+/* description ends */
+
+
+/* service starts */
+
+.service{
+    margin-block:100px;
+}
+
+.service-wrapper>div>div>div{
+    text-align: center;
+    background-color: var(--color_7);
+    padding: 15px 15px 25px 15px;
+    border-radius: 10px;
+}
+
+.service-wrapper>div>div>div>img{
+    width:50px;
+}
+
+.service-wrapper>div>div>div>h6{
+    margin-block:20px;
+}
+
+/* service ends */
+
+
+/* brand starts */
+
+.brand{
+    margin-top: 100px;
+}
+
+.brand-wrapper>div>h5{
+    margin-bottom:40px;
+}
+
+/* brand ends */
+
+
+/* team work starts */
+
+.teamwork-wrapper>div>div:first-child img{
+    width: 100%;
+}
+
+.teamwork-wrapper>div>div:last-child img{
+    width: 90%;
+}
+
+.teamwork-wrapper>div>div:last-child>div>h2{
+    margin-block:20px;
+}
+
+.teamwork-wrapper>div>div:last-child>div>p{
+    margin-bottom: 15px;
+}
+
+.teamwork-wrapper>div>div:last-child>div>div>div>span{
+    font-weight: 600;
+}
+
+/* team work ends */
+
+
+/* member starts */
+
+.member-wrapper>div>div>div{
+    background-color: var(--color_7);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: var(--color_3) 0px 4px 0px 0px;
+}
+
+.member-wrapper>div>div>div>img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.member-wrapper>div>div>div>p{
+    margin-block:20px 15px;
+}
+
+/* member ends */
+
+
+/* client starts */
+
+.client-wrapper>div:first-child>div>h1{
+    font-weight: 700;
+}
+
+.client-wrapper>div:first-child>div:first-child>h1{
+    color: var(--color_3);
+}
+
+.client-wrapper>div:last-child{
+    margin-block: 100px 75px;
+    padding-block: 50px;
+    border-block:var(--Color_4) 1px dotted;
+}
+
+.client-wrapper>div:last-child>div>div>div{
+    background-color: var(--color_1);
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.client-wrapper>div:last-child>div>div>div h6{
+    margin-block:20px;
+}
+
+.client-wrapper>div:last-child>div>div>div p{
+    width: 65%;
+    margin: 0px auto;
+}
+
+/* clients ends */
+
+
+/* download starts */
+
+.download{
+    margin-top:100px;
+}
+
+.download-wrapper>div>div:first-child>div>h5{
+    color: var(--color_2);
+}
+
+.download-wrapper>div>div:first-child>div>p{
+    margin-block:15px 45px;
+}
+
+.download-wrapper>div>div:first-child>div>div{
+    background-color: var(--color_1);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.download-wrapper>div>div:last-child>div>h5{
+    margin-block: 10px 20px;
+}
+
+.download-wrapper>div>div:last-child>div>p{
+    margin-block: 20px;
+}
+
+.download-wrapper>div>div:last-child>div>div{
+    margin-bottom: 15px;
+}
+
+/* download ends */
+
+/* blog starts */
+
+.blog-wrapper img{
+    width:100%;
+}
+
+.blog-wrapper>div>div:first-child>div>div>div>h6{
+    font-weight: 700;
+}
+
+.blog-wrapper>div>div:first-child>div>div>div>p{
+    margin-block: 10px;
+}
+
+.blog-wrapper>div>div:first-child>div>div>div>a{
+    font-weight: 700;
+    color: var(--color_5);
+}
+
+/* blog ends */
+
 /* media query  starts*/
 
 @media only screen and (max-width: 1199.5px){
@@ -967,6 +1225,12 @@ footer{
         padding:10px;
     }
     /* touch ends */
+
+    /* bocca starts */
+    .bocca-wrapper>div>div:first-child>div>div:last-child img{
+        padding:10px;
+    }
+    /* bocca ends */
 }
 
 @media only screen and (max-width: 400px){
